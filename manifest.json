@@ -1,0 +1,15 @@
+{
+  "name": "Casdoor OAuth",
+  "version": "1.0",
+  "description": "Sign in with Casdoor in Chrome Extension.",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "identity"
+  ],
+  "host_permissions": [
+    "<your endpoint>/*"
+  ]
+}
